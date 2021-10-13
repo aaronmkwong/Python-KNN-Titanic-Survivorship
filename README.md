@@ -1,6 +1,6 @@
 # Python-KNN-Titanic-Survivorship
 
-This project uses K-Nearest Neighbours to  classify a passenger's survivorship as died or survived. It uses the same engineered data and features as the  **[Logistic Regression Titanic Survivorship](https://github.com/aaronmkwong/Python-Logistic-Regression-Titanic-Survivorship)** project. The custom function k_value_trials() generates a dataframe of multiple trials (and the mean) of error rate versus k value curves using Monte Carlo cross validation. The custom function knn_mod_assess() returns a dataframe of all of the classifcation report results for each trial. 
+This project uses K-Nearest Neighbours to  classify a passenger's survivorship as died or survived. It uses the same engineered data and features as the  **[Logistic Regression Titanic Survivorship](https://github.com/aaronmkwong/Python-Logistic-Regression-Titanic-Survivorship)** project. The custom function k_value_trials() generates a dataframe of multiple trials (and the mean) of error rate versus k value curves using Monte Carlo cross validation. The custom function knn_mod_assess() returns a dataframe of all of the classifcation report results for each trial. These functions are used to create the following plot and average results table.
 
 The KNN model outperformed the Logistic Regression model mentioned above by 1%. 
 
